@@ -34,6 +34,13 @@ Official pure Rust typed client for ClickHouse DB.
 
 Note: [ch2rs](https://github.com/ClickHouse/ch2rs) is useful to generate a row type from ClickHouse.
 
+## Prerequisites
+
+A running ClickHouse server, either:
+
+* **ClickHouse Cloud**: [Sign up](https://console.clickhouse.cloud/signUp?utm_medium=referral&utm_source=github&utm_campaign=readme&utm_content=clickhouse-rs) for a free trial, or sign in to an existing account.
+* **Self-hosted ClickHouse**: [Install](https://clickhouse.com/docs/get-started/setup/install).
+
 ## Validation
 
 Starting from 0.14.0, the crate uses `RowBinaryWithNamesAndTypes` format by default, which allows row types validation
